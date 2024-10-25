@@ -1,43 +1,70 @@
-body {
-  font-family: sans-serif;
-  background-color: #101010;
-  color: white;
-  font-size: 16px;
-  line-height: 20px;
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-a {
-  color: white;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
-  height: 50px;
-  background-color: #080808;
-  color: white;
-  line-height: 50px;
-  text-align: center;
-  margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.video {
-  display: flex;
-  margin: 30px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
+.header h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
 }
 
-.description {
-  margin: 30px;
+.header h2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #555;
+    margin-top: 5px;
 }
 
-.resources {
-  margin: 30px;
+section {
+    margin: 20px 0;
 }
 
-.footer {
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-  background-color: #181818;
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.profile p, .experience p, .education p, .contact p, .conferences p, .certificates p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact a, .profile a {
+    color: #0078d7;
+    font-weight: bold;
 }
