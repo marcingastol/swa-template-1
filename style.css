@@ -13,7 +13,7 @@ body {
 }
 
 .resume-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
     padding: 20px;
     background: #fff;
@@ -38,8 +38,24 @@ body {
     margin-top: 5px;
 }
 
-section {
-    margin: 20px 0;
+.resume-content {
+    display: flex;
+    gap: 20px;
+}
+
+.left-column {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.main-column {
+    flex: 2;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 
 h3 {
@@ -51,7 +67,7 @@ h3 {
     padding-bottom: 5px;
 }
 
-.profile p, .experience p, .education p, .contact p, .conferences p, .certificates p {
+.profile p, .contact p, .certificates p {
     margin-bottom: 10px;
 }
 
@@ -67,4 +83,19 @@ a:hover {
 .contact a, .profile a {
     color: #0078d7;
     font-weight: bold;
+}
+
+.main-column h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.main-column p {
+    margin: 5px 0 15px;
+    color: #666;
+}
+
+.main-column section {
+    margin-bottom: 20px;
 }
